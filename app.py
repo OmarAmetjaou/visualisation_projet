@@ -1,16 +1,10 @@
 import streamlit as st
 import pandas as pd
-import folium
-from folium.plugins import HeatMap
 from streamlit_folium import st_folium
-import plotly.express as px
-from folium import Popup, IFrame
 import pandas as pd
 import streamlit as st
-from keplergl import KeplerGl
 import pydeck as pdk
 from streamlit_echarts import st_echarts
-import json
 
 # Configurer la page
 st.set_page_config(
