@@ -296,15 +296,7 @@ st.markdown(
     .stButton>button:active {
         transform: scale(0.95);
     }
-    .stApp {
-        background-color: #f5f5f5;
-    }
-    div[data-testid="stMarkdownContainer"] h1 {
-        color: #333;
-        font-family: 'Arial', sans-serif;
-        text-align: center;
-        margin-top: 0;
-    }
+    
     .markdown-box {
         background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
         border: 1px solid #d1d5db;
@@ -322,13 +314,16 @@ st.markdown(
     }
     .markdown-box p {
         margin-bottom: 10px;
+        color: black;
     }
     .markdown-box ul {
         padding-left: 20px;
         margin: 10px 0;
+        color: black;
     }
     .markdown-box ul li {
         margin-bottom: 5px;
+        color: black;
     }
     </style>
     """,
