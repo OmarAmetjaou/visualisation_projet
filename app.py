@@ -622,7 +622,7 @@ else:
                         <p>Année avec masse moyenne max</p>
                     </div>
                     <div class="card">
-                        <h1>{max_mass_year['mass']:.2f} t</h1>
+                        <h1>{max_mass_year['mass']:.2f} g</h1>
                         <p>Masse moyenne max</p>
                     </div>
                     <div class="card">
@@ -630,7 +630,7 @@ else:
                         <p>Année avec masse moyenne min</p>
                     </div>
                     <div class="card">
-                        <h1>{avg_mass:.2f} t</h1>
+                        <h1>{avg_mass:.2f} g</h1>
                         <p>Masse moyenne globale</p>
                     </div>
                     """,
